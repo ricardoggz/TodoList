@@ -5,13 +5,13 @@ main{
     
 }
 main .main-container{
+    max-width: 80%;
+    height: auto;
     display:grid;
     grid-template-columns: 100%;
     gap:1rem;
     align-items: center;
     justify-content: center;
-    max-width: 80%;
-    height: auto;
     margin: 5rem auto;
     padding:1rem;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.185);
@@ -31,7 +31,7 @@ main input{
     margin: 1rem 0;
 }
 
-main .btn-submit{
+/*main .btn-submit{
     width: 12%;
     background:rgb(15, 185, 177);
     color:rgb(241, 242, 246);
@@ -41,7 +41,7 @@ main .btn-submit{
 
 main .btn-danger{
     background: rgb(235, 59, 90);
-}
+}*/
 
 /*--responsive-movil*/
 
