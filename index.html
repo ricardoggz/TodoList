@@ -14,11 +14,20 @@
                 <a href="#" class="logo"><h1>To-Do-List APP</h1></a>
                 <nav class="nav-menu">
 
-                    <button class="btn" id="btn-mode">
-                        <i class="bi bi-moon-fill"></i>Dark mode
-                    </button>
-                    <a href="">Inicio</a>
-                    <a href="">¿Cómo funciona?</a>
+
+                    <input type="checkbox" id="menu">
+                    <label for="menu" class="bar-btn"> <i class="bi bi-list"></i></label>
+
+                    <ul class="menu-list">
+
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Funcionamiento</a></li>
+                        <li>
+                            <button class="btn" id="btn-mode">
+                                <i class="bi bi-moon-fill"></i>Dark mode
+                            </button>
+                        </li>
+                    </ul>
                 </nav>
             </div>
         </header>
@@ -28,31 +37,36 @@
                 <div class="card">
                     <h1>Pendientes:</h1>
                     <form id="formTask">
-                        <input type="text" id="task" class="input-bar" placeholder="Título de lista:">
+                        <input type="text" id="task" class="input-bar"
+                            placeholder="Título de lista:">
 
                         <br>
 
-                        <input type="text" id="description" class="input-bar" placeholder="Mi tarea:">
+                        <input type="text" id="description" class="input-bar"
+                            placeholder="Mi tarea:">
 
                         <br>
 
-                        <input type="time" id="hour" class="input-bar" placeholder="Hora">
+                        <input type="time" id="hour" class="input-bar"
+                            placeholder="Hora">
 
                         <br>
 
-                        <input type="submit" value="Crear lista" class="btn-submit" id="submit-add">
-                        
+                        <input type="submit" value="Crear lista"
+                            class="btn-submit" id="submit-add">
+
                         <br>
 
-                        <input type="reset" value="Borrar" class="btn-submit btn-danger">
+                        <input type="reset" value="Borrar" class="btn-submit
+                            btn-danger">
 
-                        
+
 
                     </form>
 
-                   
-                    
-                   
+
+
+
                 </div>
                 <div class="card">
                     <h1>Mi lista:</h1>

@@ -42,3 +42,20 @@ main .btn-submit{
 main .btn-danger{
     background: rgb(235, 59, 90);
 }
+
+/*--responsive-movil*/
+
+@media (min-width:240px) and (max-width:720px){
+
+    main .main-container{
+        max-width: 90%;
+    }
+
+    main input{
+        width: 100%;
+    }
+    main .btn-submit{
+        width: 50%;
+    }
+
+}
