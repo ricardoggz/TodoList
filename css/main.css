@@ -1,0 +1,44 @@
+main{
+    width: 100%;
+    height: auto;
+    position:relative;
+    
+}
+main .main-container{
+    display:grid;
+    grid-template-columns: 100%;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    height: auto;
+    margin: 5rem auto;
+    padding:1rem;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.185);
+}
+main .card{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    padding: 1rem;
+    border:1px solid rgb(15, 185, 176);
+    border-radius: 0.2rem;
+}
+
+main input{
+    width: 70%;
+    padding:0.8rem;
+    margin: 1rem 0;
+}
+
+main .btn-submit{
+    width: 12%;
+    background:rgb(15, 185, 177);
+    color:rgb(241, 242, 246);
+    cursor:pointer;
+    margin:0.5rem 0;
+}
+
+main .btn-danger{
+    background: rgb(235, 59, 90);
+}
