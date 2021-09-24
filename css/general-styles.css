@@ -57,7 +57,7 @@ body.mode{
 /*menu responsive*/
 
 .mode  #menu:checked~.menu-list{
-    background: rgb(30, 39, 46);
+    background: rgb(30, 39, 46,0.930);
 }
 
 
