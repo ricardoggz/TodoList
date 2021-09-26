@@ -66,7 +66,7 @@ body.mode{
 .btn-submit{
     background: var(--btn-submit);
     color:var(--bg-color-light);
-    width: 12%;
+    width: 15%;
     cursor:pointer;
     margin:0.5rem 0;
 }

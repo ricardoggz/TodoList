@@ -62,7 +62,7 @@ header .container-menu .btn:hover {
         
     }
     header .menu-list li {
-        padding:1rem;
+        padding:1.5rem 1rem;
     }
     header #menu:checked~.menu-list {
         width: 100%;
