@@ -40,7 +40,7 @@ function getTask() {
 
     let tasks = JSON.parse(localStorage.getItem('tasks'));
 
-    document.getElementById('tasks').innerHTML = '';
+    document.getElementById('tasks').innerHTML = '<h1>Mi lista:</h1>';
 
     for (let i = 0; i < tasks.length; i++) {
 
@@ -48,7 +48,8 @@ function getTask() {
         let description = tasks[i].description;
 
         document.getElementById('tasks').innerHTML +=
-            `<p> ${task} - ${description} </p> 
+            `<br>
+             <p> ${task} - ${description} </p> 
              <button class="btn-submit" onclick="editTask('${task}')">Editar</button>
              <br>
              <button class="btn-submit btn-danger" onclick="deleteTask('${task}')">Borrar</button>`
