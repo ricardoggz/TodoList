@@ -24,13 +24,14 @@
                         <li>
                             <a href="mailto:ricardo_ggzicm@outlook.com">Contacto</a>
                         </li>
-                        
+
                         <li>
-                            <a href="https://github.com/ricardoggz/TodoList" target="blank"> <i class="bi bi-github"></i>&nbsp;Repositorio
+                            <a href="https://github.com/ricardoggz/TodoList"
+                                target="blank"> <i class="bi bi-github"></i>&nbsp;Repositorio
                             </a>
                         </li>
 
-                        
+
 
 
                         <li>
@@ -60,44 +61,56 @@
                         <h4>Descripción:</h4>
 
                         <input type="text" id="description" class="input-bar"
-                            placeholder="Ej. Realizar mi tarea">
+                            placeholder="Ej. Tengo que terminar mi tarea">
+                        <br>
+
+
+                        <!--<h4>Hora:</h4>
+
+                        <input type="time" id="hour" class="input-bar">-->
 
                         <br>
 
-                        <h4>Hora:</h4>
+                        <button class="btn-submit" >
+                            Agregar
+                        </button>
 
-                        <input type="time" id="hour" class="input-bar">
 
+
+                        <!--<input type="button" value="Agregar"
+                            class="btn-submit" id="submit-add">-->
                         <br>
 
-                        <input type="submit" value="Agregar"
-                            class="btn-submit" id="submit-add">
+                        <!--<input type="reset" value="Borrar" class="btn-submit
+                            btn-danger">-->
+                        <button type="reset" class="btn-submit btn-danger">Borrar
+                            campos
+                        </button>
 
-                        <br>
-
-                        <input type="reset" value="Borrar" class="btn-submit
-                            btn-danger">
-
-
+                       
 
                     </form>
+
+                   
 
 
 
 
                 </div>
-                <div class="card">
-                    <h1>Mi lista:</h1>
+                <div class="card" id="tasks">
+                    <h4>Aún no ha agregado tareas</h4>
                 </div>
             </div>
         </main>
 
         <footer>
-            &copy; Copyright - 2021 <a href="https://github.com/ricardoggz" target="blank">@ricardo_guevarag</a> v 1.0
+            &copy; Copyright - 2021 <a href="https://github.com/ricardoggz"
+                target="blank">@ricardo_guevarag</a> v 1.0
         </footer>
 
 
         <script src="APPjs/mode.js"></script>
+        <script src="APPjs/tasks.js"></script>
 
     </body>
 </html>
