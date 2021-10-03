@@ -7,12 +7,23 @@ document.getElementById('formTask').addEventListener('submit', saveTask);
 function saveTask(e) {
     let task = document.getElementById('task').value;
     let description = document.getElementById('description').value;
+
+    //Validación de formulario:
+
+    if(task.length == 0){
+        alert('llena los campos');
+        return;
+    }
+    if(description.length == 0){
+        alert('llena los campos');
+        return;
+    }
+
     let Tasks = {
         task, description
     };
 
-
-
+    
     if (localStorage.getItem('tasks') === null) {
 
         let tasks = [];
